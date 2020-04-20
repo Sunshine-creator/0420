@@ -1,0 +1,18 @@
+<?xml version="1.2" encoding="utf-8?>
+<Books>
+ <Book ID ="001">
+ <BookName>Web程序设计-----ASP.NET实用网站开发（第三版）</BookName>
+<Author>沈世根;叶晓彤<Author>
+<Price>49</Price>
+</Book>
+<Book ID="100">
+ <BookName>ASP.NET</Bookname>
+<Author>张立</Author>
+<Price>156</Price>
+</Book>
+<Book ID ="104">
+<BookName>基于C#精通LINO数据访问</BookName>
+<Author>毛一中</Author>
+<Price>45.9</Price>
+</Book>
+</Books>

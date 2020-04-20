@@ -1,0 +1,98 @@
+table{width:100%}
+.navigation{text-align:center;background-color:#99CCFF;}
+.status{background-color:#33CCCC;}
+.position{background-color:#33CCCC;}
+#logo{float:width;width:30%;}
+#navigation{background-color:#99CCFF;height:30px;}
+#status{background-color:#CCFFFF;height:30px;}
+#navigation{background-color:#99CCFF;height:30px}
+#position{background-color:#33CCCC;}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="sever">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+<link href="Styles/TabDiv.css" rel ="stylesheet" type="text/css"/>
+<style type="text/css">
+   .auto-style2
+    {
+        width:427px;
+    }
+   .auto-style4
+   {
+       text-align:center;
+       background-color:#99CCFF
+       height:61px;
+   }
+   .auto-style7
+  {
+      background-color:#CCFFFF;
+      height:29px;
+  }
+</style>
+</head>
+<body>
+ <form id="form1" runat="sever">
+   <div>
+      <table class="width:100%">
+       <tr>
+          <td rowspan="2" class="auto-style2">
+           <asp: Image ID="ImgLogo" runat="sever" ImgUrl="/2013.gif" Width="160px"/>
+          </td>
+          <td class="auto-style4">
+            <asp:LinkButton ID ="lnkbtnDefault" runat="sever">首页</asp:LinkButton>
+           </td>
+          <td class="navigation">
+            <asp:LinkButton ID =" lnkbtnReset" runat="sever">个性重置</asp:LinkButton>
+            </td>
+         <td class= navigation">
+              <asp:LinkButton ID="lnkbtnRegister" runat="sever">注册</asp:LinkButton>
+          </td>
+          </tr>
+         <tr>
+            <td colspan="3" class="auto-style7">登录状态</td>
+        </tr>
+         <tr>
+               <td colspan="4" class="position">你的登陆位置：</td>
+         </tr>
+   </table>
+</div>
+ </form>
+</body> 
+</html>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat = "sever">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>结合div层和.css文件进行页面布局</title>
+     <link href="Styles/TableDiv.css" rel="stylesheet" type="text/css"/>
+ </head>
+<body>
+  <form id = "form1" runat="sever">
+    <div id="top">
+      <div id="logo_navi_stat">
+        <div id = "logo">
+          <asp"Img ID="imgLogo" runat="sever" ImageUrl="/Image/logo.gif"/>
+          </div>
+           <div id = "navigation">
+              <asp:LinkButton ID = "lnkbtnDefault" runat="sever">首页 </asp:LinkButton>
+                  &nbsp;  &nbsp;  &nbsp;  &nbsp; | &nbsp;
+              <asp:LinkButton ID = "lnkbtnReset" runat="sever">首页 </asp:LinkButton>
+                  &nbsp;  &nbsp;  &nbsp;  &nbsp; | &nbsp;
+             <asp:LinkButton ID = "lnkbtnRegister" runat="sever">注册 </asp:LinkButton>
+                  &nbsp;  &nbsp;  &nbsp;  &nbsp; | &nbsp;
+          </div>
+          <div id ="status">登陆状态</div>
+          </div>
+         <div id = "position">你的位置</div>
+       </div>
+        </form>
+    </body>
+   </html>
+          
+
+
+
+       
